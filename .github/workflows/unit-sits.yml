@@ -1,4 +1,6 @@
-name: C/C++ CI
+# Unit Test of sits
+
+name: C CI
 
 on:
   push:
