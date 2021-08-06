@@ -3,8 +3,8 @@
  * (C) Copyright Ryan Martin (ISNTL) 2021 <?>
  */
 
-#ifndef SITS_H_
-#define SITS_H_
+#ifndef _SITS_H
+#define _SITS_H
 
 #include <string.h>
 #include <ctype.h>
@@ -46,5 +46,5 @@ static inline uint32_t s_cmp(char *s0, char *s1)
     }
 }
 
-#endif /* SITS_H_ */
+#endif /* _SITS_H */
 #endif /* __linux__ */
