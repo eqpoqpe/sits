@@ -1,2 +1,2 @@
 test:
-        @cat ./bin/unit-sits.sh | bash
+	@cat ./bin/unit-sits.sh | bash
