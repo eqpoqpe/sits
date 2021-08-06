@@ -40,7 +40,8 @@ static inline uint32_t s_cmp(char *s0, char *s1)
             } else if (isdigit(*(s1 + index)) == OK) {
                 return 1;
             } else {
-                return ((int) *(s0 + index) < (int) *(s1 + index) ? 0 : 1);
+                if (*(s0 + index) < *(s1 + index)) return 0;
+                else if (*(s0 + index) > *(s1 + index)) return 1;
             }
         }
     }
